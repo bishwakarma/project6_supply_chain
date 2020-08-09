@@ -1,6 +1,6 @@
-##Project: Ethereum Dapp for Tracking Items through Supply Chain
+## Project: Ethereum Dapp for Tracking Items through Supply Chain
 
-##Project write-up - UML
+## Project write-up - UML
 * Activity
 
 ![Activity](images/activity.png)
@@ -17,7 +17,7 @@
 
 ![Class](images/class.png)
 
-##Project write-up - Libraries
+## Project write-up - Libraries
 Truffle v5.1.28 (core: 5.1.28)
 
 Solidity - 0.4.24 (solc-js)
@@ -30,7 +30,7 @@ truffle-assertions (^0.9.2)
 
 truffle-hdwallet-provider (^1.0.17)
 
-##General Write Up
+## General Write Up
 Install dependencies:
 ````
 npm install
