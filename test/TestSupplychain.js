@@ -188,6 +188,7 @@ contract('SupplyChain', function(accounts) {
         
 
         // Mark an item as Sold by calling function buyItem()
+        await supplyChain.addDistributor(distributorID)
         let tx = await supplyChain.buyItem(upc, {from: distributorID, value: productPrice})
 
         // Retrieve the just now saved item from blockchain by calling function fetchItem()
